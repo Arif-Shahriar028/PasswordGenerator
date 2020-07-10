@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">PasswordGenerator</string>
+    <string name="instruction">
+
+        <ul>
+            <li>Here are two ways to generate a password. The first is that you can encrypt your own password as you wish, which will be a very strong password and easy to remember. Another method is to generate random passwords.\n\n</li>
+            <li>Encryption of your own memorizable password will help you to make sure the password hacking restricted.\n\n</li>
+            <li>You can also generate random password which also generate hacking restricted password.</li>
+        </ul>
+    </string>
+
+    <string name="recommendation">
+
+        <ul>
+            <li>Make your password eight characters or longer\n\n</li>
+            <li>Don’t make passwords easy to guess\n\n</li>
+            <li>Do not include personal information such as your name or pets’ names easily to find on social media\n\n</li>
+            <li>Avoid using common words in your password\n\n</li>
+            <li>Substitute letters with numbers and punctuation marks or symbols\n\n</li>
+            <li>Get creative. Use phonetic replacements, such as “PH” instead of “F”. Or make deliberate, but obvious misspellings\n\n</li>
+            <li>Never share your password\n\n</li>
+            <li>Unique account, unique password. Use different passwords for different accounts\n\n</li>
+            <li>Use stronger authentication when available, especially for accounts with sensitive information including your email or bank accounts\n\n</li>
+
+        </ul>
+
+
+    </string>
+
+    <string name="developer"> Developer:\n\n Arif Shahriar\n\n Email : arifshahriar028@gmail.com\n github : Arif-Shahriar028</string>
+
+    <string name="share">
+
+        Hello!\n
+        New Password Manager app is here for you\n
+        Through this app, you can generate a strong custom or random password which will secure you account more effectively\n
+        Here is the drive link to download : https://drive.google.com/drive/folders/1y3y1mCppFUiasKjw9PQVQesIf8SKIkxr?usp=sharing
+    </string>
+
+</resources>

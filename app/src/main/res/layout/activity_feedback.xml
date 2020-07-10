@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:weightSum="4"
+    tools:context=".Feedback">
+
+    <EditText
+        android:layout_weight=".5"
+        android:id="@+id/nameEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E6D758"
+        android:hint="Type your name"
+        android:textCursorDrawable="@null"
+        android:textSize="15sp" />
+
+    <EditText
+        android:layout_weight="1.5"
+        android:id="@+id/messageEditTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#B8AA2E"
+        android:hint="Type your message"
+        android:textCursorDrawable="@null"
+        android:textSize="15sp" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="50dp"
+        android:layout_weight=".1"
+        android:weightSum="2"
+        >
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/clearButtonId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clear"
+            android:textSize="15sp"
+            android:layout_gravity="center_horizontal"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textAllCaps="false"
+            android:background="#2196F3"
+            android:layout_marginRight="10dp"
+            />
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/sendButtonId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send"
+            android:textSize="15sp"
+            android:layout_gravity="center_horizontal"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:textAllCaps="false"
+            android:background="#2196F3"
+            android:layout_marginLeft="10dp"
+            />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:text="*Send this feedback via email"
+        android:textSize="15sp"
+        />
+
+
+</LinearLayout>

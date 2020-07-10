@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+
+    <item
+        android:id="@+id/feedbackId"
+        android:title="Send Feedback"
+
+        />
+
+    <item
+        android:id="@+id/aboutId"
+        android:title="About This app"
+        />
+
+    <!--<item
+              android:id="@+id/ratingId"
+              android:title="rate us"
+              />  -->
+
+    <item
+        android:id="@+id/shareId"
+        android:title="Share this app"
+        android:icon="@drawable/ic_baseline_share_24"
+        app:showAsAction="always"
+        />
+
+</menu>
